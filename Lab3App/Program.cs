@@ -27,9 +27,10 @@ namespace Lab3App
 
             // One Axe
             possibleCollectiable.Add(new Axe("OnlyAxe"));
+           
 
             // One MagicWand
-            possibleCollectiable.Add(new Axe("OnlyMagicWand"));
+            possibleCollectiable.Add(new MagicWand("OnlyMagicWand"));
 
             // Associate the CollectionBoard object to all the possible Collectiables
             // using a foreach loop
